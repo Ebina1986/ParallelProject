@@ -6,6 +6,6 @@ COPY requirements.txt .
 
 RUN pip install -r requirements.txt
 
-COPY Parallel_project .
+COPY .
 
 CMD ["fastapi" , "run" , "main.py"]
