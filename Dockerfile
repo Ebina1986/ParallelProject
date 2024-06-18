@@ -2,7 +2,7 @@ FROM python:3.9.11
 
 WORKDIR /var/www
 
-COPY /Parallel/requirements.txt .
+COPY /ParallelProject/requirements.txt .
 
 RUN pip install -r requirements.txt
 
